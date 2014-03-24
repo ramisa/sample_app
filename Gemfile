@@ -1,10 +1,9 @@
-source 'https://rubygems.org'
-<<<<<<< HEAD
+ # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
-gem 'bootstrap-sass', '2.3.2.0'
-gem 'sprockets', '2.11.0'
+ gem 'rails', '4.0.2'
+
+
+
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
@@ -58,11 +57,11 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-=======
+
 ruby '1.9.3'
 #ruby-gemset=railstutorial_rails_4_0
 
-gem 'rails', '4.0.4'
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -89,4 +88,4 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
->>>>>>> 78f3b603a8848573524758750d116eb149af1ce9
+
