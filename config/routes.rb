@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+<<<<<<< HEAD
   get "users/new"
   
   root 'static_pages#home'
@@ -10,6 +11,12 @@ SampleApp::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # ou can have the root of your site routed with "root"
+=======
+  # The priority is based upon order of creation: first created -> highest priority.
+  # See how all your routes lay out with "rake routes".
+
+  # You can have the root of your site routed with "root"
+>>>>>>> 78f3b603a8848573524758750d116eb149af1ce9
   # root 'welcome#index'
 
   # Example of regular route:

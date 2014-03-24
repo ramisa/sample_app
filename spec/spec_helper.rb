@@ -13,7 +13,10 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 
 RSpec.configure do |config|
+<<<<<<< HEAD
   config.include Capybara::DSL
+=======
+>>>>>>> 78f3b603a8848573524758750d116eb149af1ce9
   # ## Mock Framework
   #
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:

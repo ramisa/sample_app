@@ -13,7 +13,10 @@ Bundler.require(:default, Rails.env)
 
 module SampleApp
   class Application < Rails::Application
+<<<<<<< HEAD
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+=======
+>>>>>>> 78f3b603a8848573524758750d116eb149af1ce9
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
